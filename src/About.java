@@ -39,7 +39,7 @@ public class About extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(0, 102, 51));
         jLabel10.setText(":     Library Management System");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Games\\Library\\images\\dev.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/dev.png"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 153));
@@ -101,8 +101,6 @@ public class About extends javax.swing.JFrame {
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel16.setText("Copyright 2018-19");
-
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Games\\Library\\images\\Copyright.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
